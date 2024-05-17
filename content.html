@@ -6,35 +6,66 @@
     <title>More Vacation Content</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #00796b;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #004d40;
+            font-size: 1.8em;
+            margin-top: 20px;
         }
         img {
             width: 100%;
             height: auto;
-            border: 2px solid #000;
+            border: 2px solid #00796b;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
         }
         .button {
             margin-top: 20px;
         }
         .button a {
-            background-color: #008cba;
+            background-color: #ff7043;
             color: white;
             padding: 15px 25px;
             text-decoration: none;
             font-size: 16px;
             border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
         }
         .button a:hover {
-            background-color: #005f5f;
+            background-color: #f4511e;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .testimonial {
+            background-color: #f0f4c3;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -43,6 +74,26 @@
         <h1>Explore More About Your Vacation</h1>
         <img src="vacation-image.jpeg" alt="Beautiful Vacation Destination">
         <p>Experience the beauty and tranquility of your dream destination. From pristine beaches to breathtaking mountain views, your perfect vacation awaits.</p>
+
+        <h2>Popular Destinations</h2>
+        <p><strong>Bali, Indonesia:</strong> Known for its forested volcanic mountains, iconic rice paddies, beaches, and coral reefs. Explore the rich culture and beautiful landscapes.</p>
+        <p><strong>Paris, France:</strong> The city of light and love. Visit the Eiffel Tower, the Louvre Museum, and enjoy the finest French cuisine.</p>
+        <p><strong>Kyoto, Japan:</strong> Famous for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.</p>
+
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p><em>"Our trip to Bali was absolutely magical. The scenery was stunning, and the culture was fascinating. Highly recommend!"</em></p>
+            <p>- Sarah L.</p>
+        </div>
+        <div class="testimonial">
+            <p><em>"Paris was everything we dreamed of and more. The food, the sights, and the romance were unforgettable. We can't wait to go back."</em></p>
+            <p>- James & Maria K.</p>
+        </div>
+        <div class="testimonial">
+            <p><em>"Kyoto offered a perfect blend of traditional and modern Japan. The temples and gardens were serene, and the people were incredibly welcoming."</em></p>
+            <p>- David R.</p>
+        </div>
+
         <div class="button">
             <a href="index.html">Back to Home</a>
         </div>
