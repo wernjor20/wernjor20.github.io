@@ -6,44 +6,82 @@
     <title>Vacation Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        .menubar {
+            background-color: #00796b;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menubar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .menubar a:hover {
+            background-color: #004d40;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #00796b;
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
         video {
             width: 100%;
             height: auto;
-            border: 2px solid #000;
+            border: 2px solid #00796b;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
         .button {
             margin-top: 20px;
         }
         .button a {
-            background-color: #008cba;
+            background-color: #ff7043;
             color: white;
             padding: 15px 25px;
             text-decoration: none;
             font-size: 16px;
             border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
         }
         .button a:hover {
-            background-color: #005f5f;
+            background-color: #f4511e;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
         .description {
             margin: 20px 0;
-            font-size: 18px;
+            font-size: 1.2em;
             color: #333;
         }
     </style>
 </head>
 <body>
+    <div class="menubar">
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Packages</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
     <div class="container">
         <h1>Welcome to Your Dream Vacation</h1>
         <div class="description">
